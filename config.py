@@ -6,22 +6,22 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot Variables
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", "5296584067"))
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8288781906:AAFsinyZnwI48m7yHfBJJgsCq-wA1C4OoNM")
+APP_ID = int(os.environ.get("APP_ID", "35847957"))
+API_HASH = os.environ.get("API_HASH", "8b6aaa8015b462b57b11abbb4b5ba4fa")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6578785208"))
 
 #Database Variables
-DB_URL = os.environ.get("DATABASE_URL", "mongodb+srv://abidabdullahown9:abidabdullah1425@cluster0.ghxa0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "NocoFlux")
+DB_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Primedatabase:xi3EUKBVY4EtrKVD@prime.dskdsit.mongodb.net/?appName=Prime")
+DB_NAME = os.environ.get("DATABASE_NAME", "Primedatabase")
 #your channel id where the file will be stored as log format
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002191732189"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003658052655"))
 
 #Force Sub Channel id [Your Telegram Channels id] 
-FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", ""))
-FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", ""))
-FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", ""))
-FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", ""))
+FORCE_SUB_CHANNEL_1 = int(os.environ.get("FORCE_SUB_CHANNEL_1", "-1003658052655"))
+FORCE_SUB_CHANNEL_2 = int(os.environ.get("FORCE_SUB_CHANNEL_2", "-1002388644710"))
+FORCE_SUB_CHANNEL_3 = int(os.environ.get("FORCE_SUB_CHANNEL_3", "-1002665281627"))
+FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1003531727255"))
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Whatt!You haven't join worlds bast channel ever create in human existence, Join Now! All of Them, Smash them")
 
 
